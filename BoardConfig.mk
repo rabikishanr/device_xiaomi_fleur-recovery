@@ -173,6 +173,8 @@ SHRP_OTG := /usbotg #
 SHRP_DEVICE_CODE := fleur
 SHRP_REC_TYPE := SAR
 SHRP_NOTCH := true
+SHRP_REC := /dev/block/bootdevice/by-name/boot
+SHRP_DEVICE_TYPE := A_Only
 
 
 #SHRP Addons
