@@ -167,14 +167,14 @@ SHRP_DARK := true
 SHRP_EDL_MODE := 0
 SHRP_FLASH := 1
 SHRP_AB := true
-SHRP_INTERNAL := /sdcard #
-SHRP_EXTERNAL := /sdcard1 #
-SHRP_OTG := /usbotg #
+SHRP_INTERNAL := /sdcard 
+SHRP_EXTERNAL := /sdcard1 
+SHRP_OTG := /usbotg 
 SHRP_DEVICE_CODE := fleur
 SHRP_REC_TYPE := SAR
 SHRP_NOTCH := true
 SHRP_REC := /dev/block/bootdevice/by-name/boot
-SHRP_DEVICE_TYPE := A_Only
+SHRP_DEVICE_TYPE := A/B
 
 
 #SHRP Addons
@@ -182,7 +182,7 @@ SHRP_DEVICE_TYPE := A_Only
 #SHRP_SKIP_DEFAULT_ADDON_2 := true
 #SHRP_SKIP_DEFAULT_ADDON_3 := true
 #SHRP_SKIP_DEFAULT_ADDON_4 := true
-#INC_IN_REC_MAGISK := true
+INC_IN_REC_MAGISK := true
 #SHRP_EXTERNAL_ADDON_PATH := $(DEVICE_PATH)/addons/
 #SHRP_EXTERNAL_ADDON_1_NAME := "Mount Super as RW"
 #SHRP_EXTERNAL_ADDON_1_INFO := "This will mount your system partitions as RW"
