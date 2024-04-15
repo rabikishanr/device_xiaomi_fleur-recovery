@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Inherit some common recovery stuff.
-$(call inherit-product, vendor/recovery/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from vida device
 $(call inherit-product, device/xiaomi/vida/device.mk)
