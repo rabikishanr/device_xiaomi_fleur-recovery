@@ -1,4 +1,4 @@
-LOCAL_PATH := device/xiaomi/fleur
+LOCAL_PATH := device/xiaomi/vida
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
