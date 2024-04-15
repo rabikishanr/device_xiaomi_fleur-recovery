@@ -21,5 +21,5 @@ $(call inherit-product, device/xiaomi/vida/device.mk)
 PRODUCT_DEVICE := vida
 PRODUCT_NAME := recovery_vida
 PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Redmi Note 11S/Poco M4 Pro
+PRODUCT_MODEL := Redmi Note 11 PRO 4G
 PRODUCT_MANUFACTURER := xiaomi
