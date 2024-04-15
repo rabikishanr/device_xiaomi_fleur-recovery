@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/recovery_fleur.mk
+    $(LOCAL_DIR)/recovery_vida.mk
 
 COMMON_LUNCH_CHOICES := \
-    recovery_fleur-eng
+    recovery_vida-eng
